@@ -62,7 +62,7 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  // min-height: 100vh;
 
   @include m-q(700px) {
     background-image: url(images/bg-hero-mobile.svg);
@@ -112,15 +112,17 @@ img {
 
   &__center {
     @include flex-c-c();
-    min-height: calc(100vh - 152px);
+    // min-height: calc(100vh - 152px);
   }
 
   &__main-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 6rem;
+    // padding-top: 2rem;
+    // padding-bottom: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
 
     @include m-q(850px) {
       grid-template-columns: 1fr;
